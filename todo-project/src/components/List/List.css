@@ -54,3 +54,8 @@
 .dlt-btn {
     color: #ff1900;
 }
+
+.checked {
+    text-decoration: line-through;
+  }
+  
