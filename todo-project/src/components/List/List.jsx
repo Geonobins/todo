@@ -32,7 +32,8 @@ export const List = ({ rows, deleteRow, editRow, checkRow }) => {
                       onChange={() => checkRow(idx)} 
                     />
                   </td>
-                  <td>{row.date}</td>
+                  <td className={`expand ${row.checked ? 'checked' : ''}`}>
+                     {row.date}</td>
                   <td>
                     <span className='actions'>
                       <BsFillTrashFill className='dlt-btn' onClick={() => deleteRow(idx)} />
