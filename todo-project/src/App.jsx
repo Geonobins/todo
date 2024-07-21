@@ -42,6 +42,7 @@ function App() {
 
   return (
     <div className='App'>
+      <h1>To-do list</h1>
       <List rows={rows} deleteRow={handleDelete} editRow={handleEditRow} checkRow={handleCheckRow} />
       <button className='btn' onClick={() => { setModelOpen(true) }}>Add Task</button>
       {modelOpen && (

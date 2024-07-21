@@ -14,6 +14,8 @@
     max-width: 80%;
     margin: auto;
     overflow-x: auto;
+    justify-content: space-around;
+    text-align: center;
 
 }
 
@@ -21,6 +23,7 @@
 .list thead{
     background-color: #ccc;
     color:#222;
+    
 }
 
 .list th,
@@ -32,6 +35,7 @@
     border-top: 0.5px solid #ddd;
     overflow:hidden;
     text-overflow:ellipsis;
+    justify-content: space-around;
 }
 
 .list tbody tr:hover{
